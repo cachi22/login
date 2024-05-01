@@ -1,0 +1,268 @@
+/* Iron Man  */
+
+
+#ironman {
+    width:280px;
+    border:1px solid #ccc;
+    padding:20px 0;
+    margin:0 auto 20px;
+    text-align:center;
+    overflow:hidden;
+    background-color:#f5f5f5;
+    background-image:linear-gradient(top, #fff, #e6e6e6);
+    background-repeat:repeat-x;
+    border-color:#e6e6e6 #e6e6e6 #bfbfbf;
+    border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-radius:15px;
+    box-shadow:0 1px 1px #bababa;
+    }
+    
+    #ironman-head {
+    width:225px;
+    margin:auto;
+    padding-bottom:30px;
+    position:relative;
+    z-index:990;
+    overflow:hidden;
+    background:#ff3019; 
+    background:radial-gradient(center, ellipse cover, #ff3019 0%,#cf0404 100%);
+    border-top-left-radius:150px;
+    border-top-right-radius:150px;
+    border-bottom-left-radius:190px;
+    border-bottom-right-radius:190px;
+    box-shadow:inset 0 20px 45px rgba(0, 0, 0, .5);
+    }
+    
+    #ironman-headin {
+    margin-top:10px;
+    margin-left:5px;
+    background:yellow;
+    width:215px;
+    border-top-left-radius:130px;
+    border-top-right-radius:130px;
+    border-bottom-left-radius:190px;
+    border-bottom-right-radius:190px;
+    box-shadow:inset 0 20px 45px rgba(0, 0, 0, .5);
+    }
+    
+    #ironman-hair {
+    width:65px;
+    height:70px;
+    border-bottom:1px solid #000;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    margin:auto;
+    position:relative;
+    background:#ff3019; 
+    background:radial-gradient(center, ellipse cover, #ff3019 0%,#cf0404 100%);
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    box-shadow:inset 0 20px 45px rgba(0, 0, 0, .5);
+    }
+    
+    #ironman-cheek-r {
+    width:25px;
+    height:148px;
+    margin:auto;
+    margin-top:48px;
+    margin-bottom:-200px;
+    margin-left:-5px;
+    float:left;
+    position:relative;
+    background:#ff3019; 
+    background:radial-gradient(center, ellipse cover, #ff3019 0%,#cf0404 100%);
+    border-top-right-radius:390px;
+    border-bottom-left-radius:390px;
+    transform:rotate(-10deg);
+    }
+    
+    #ironman-cheek-l {
+    width:25px;
+    height:148px;
+    margin:auto;
+    margin-top:48px;
+    margin-bottom:-200px;
+    margin-right:-5px;
+    float:right;
+    position:relative;
+    background:#ff3019; 
+    background:radial-gradient(center, ellipse cover, #ff3019 0%,#cf0404 100%);
+    border-top-left-radius:390px;
+    border-bottom-right-radius:390px;
+    transform:rotate(10deg);
+    }
+    
+    #ironman-eye-r {
+    border-top:4px solid #555;
+    border-bottom:2px solid #fff;
+    margin-top:33px;
+    margin-right:28px;
+    float:right;
+    padding:6px 27px;
+    background:#a5ffff; 
+    background:linear-gradient(top, #a5ffff 0%,#feffff 46%,#a0d8ef 100%);
+    border-top-left-radius:60px;
+    border-top-right-radius:0;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:90px;
+    box-shadow:0 5px 15px rgba(255, 255, 255, .9);
+    transform:rotate(-5deg);
+    }
+    
+    #ironman-eye-l {
+    border-top:4px solid #555;
+    border-bottom:2px solid #fff;
+    margin-top:33px;
+    margin-left:28px;
+    float:left;
+    padding:6px 27px;
+    background:#a5ffff; 
+    background:linear-gradient(top, #a5ffff 0%,#feffff 46%,#a0d8ef 100%);
+    border-top-left-radius:0;
+    border-top-right-radius:60px;
+    border-bottom-left-radius:90px;
+    border-bottom-right-radius:0;
+    box-shadow:0 5px 15px rgba(255, 255, 255, .9);
+    transform:rotate(5deg);
+    }
+    
+    #ironman-lower-face {
+    height:26px;
+    background:#111;	
+    margin-top:30px;
+    box-shadow:0 5px 15px rgba(255, 255, 255, .9);
+    }
+    
+    #ironman-center-face {
+    width:70px;
+    height:0;
+    border-top:105px solid #000;
+    border-left:73px solid transparent;
+    border-right:73px solid transparent;
+    margin-bottom:-10px;
+    opacity:.1;
+    }
+    
+    #ironman-bottom-face {
+    width:65px;
+    height:79px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#444;
+    opacity:.1;
+    border-bottom-left-radius:190px;
+    border-bottom-right-radius:190px;
+    }
+    
+    #ironman-jaw {
+    width:150px;
+    clear:both;
+    margin:auto;	
+    }
+    
+    #ironman-chin {
+    width:50px;
+    margin-top:-30px;
+    margin-left:auto;	
+    margin-right:auto;
+    border-bottom:15px solid red;
+    border-left:7px solid transparent;	
+    border-right:7px solid transparent;
+    clear:both;
+    }
+    
+    #ironman-mouth {
+    width:65px;
+    height:5px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#000;
+    border:1px solid #000;
+    position:relative;
+    clear:both;
+    }
+    
+    #ironman-mouth-l {
+    width:15px;
+    height:4px;
+    margin-top:15px;
+    margin-bottom:-10px;
+    background:#444;
+    border:1px solid #000;
+    position:relative;
+    float:left;
+    transform:rotate(-30deg);
+    }
+    
+    #ironman-mouth-r {
+    width:15px;
+    height:4px;
+    margin-top:-3px;
+    background:#444;
+    border:1px solid #000;
+    position:relative;
+    float:right;
+    transform:rotate(30deg);
+    }
+    
+    #ironman-mouth-r-end {
+    width:25px;
+    height:1px;
+    margin-top:-2px;
+    margin-left:-5px;
+    margin-right:5px;
+    border:1px solid #000;
+    position:relative;
+    float:right;
+    background:#444;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    transform:rotate(-30deg);
+    }
+    
+    #ironman-mouth-l-end {
+    width:25px;
+    height:1px;
+    margin-top:15px;
+    margin-bottom:-10px;
+    margin-left:5px;
+    margin-right:-5px;
+    border:1px solid #000;
+    position:relative;
+    float:left;
+    background:#444;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    transform:rotate(30deg);
+    }
+    
+    #ironman-neck {
+    width:130px;
+    height:70px;
+    margin-top:-40px;
+    margin-bottom:-30px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    z-index:222;
+    clear:both;
+    background:#ff3019; 
+    background:radial-gradient(center, ellipse cover, #ff3019 0%,#cf0404 100%);
+    border-radius:600px/235px;
+    box-shadow:inset 0 20px 25px rgba(0, 0, 0, .5);
+    }
+    
+    #ironman-shoulders {
+    width:90%;
+    height:90px;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid #660000;
+    position:relative;
+    z-index:99;
+    background:#ff3019; 
+    background:radial-gradient(center, ellipse cover, #ff3019 0%,#cf0404 100%);
+    border-top-left-radius:75px;
+    border-top-right-radius:75px;
+    box-shadow:inset 0 20px 45px rgba(0, 0, 0, .5);
+    }
